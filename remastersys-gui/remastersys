@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sudo dpkg -i *.deb
+sleep 5
+sudo apt-get install -f
